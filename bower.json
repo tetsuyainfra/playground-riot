@@ -1,0 +1,22 @@
+{
+  "name": "pazz_riot",
+  "description": "pazz calc",
+  "main": "index.js",
+  "authors": [
+    "tetsuyainfra"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mui": "^0.4.7"
+  }
+}

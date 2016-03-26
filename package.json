@@ -1,0 +1,39 @@
+{
+  "name": "riot.playground",
+  "version": "0.0.1",
+  "description": "riot muicss",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build-html": "jade -o build src",
+    "build-js": "webpack --progress",
+    "watch-js": "webpack --progress --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tetsuyainfra",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.14.7",
+    "riot": "^2.3.17"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "bower": "^1.7.7",
+    "bower-webpack-plugin": "^0.1.9",
+    "browser-sync": "^2.11.2",
+    "browser-sync-webpack-plugin": "^1.0.1",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.10.0",
+    "css-loader": "^0.23.1",
+    "html-loader": "^0.4.3",
+    "jade": "^1.11.0",
+    "jade-html-loader": "0.0.3",
+    "node-sass": "^3.4.2",
+    "riotjs-loader": "^3.0.0",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.14"
+  }
+}
